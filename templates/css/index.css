@@ -1,0 +1,102 @@
+@font-face {
+  src: url("../fonts/PermanentMarker-Regular (1).woff2") format("woff2");
+  font-family: "Permanent Marker";
+}
+body {
+  background-image:url('../images/Neonback.gif');
+  background-size:200%;
+  background-repeat:no-repeat;
+  background-position:center center;
+
+}
+
+p{
+  font-family: "Permanent Marker";
+    color: rgb(228, 234, 240);
+    font-size: 120%;
+}
+
+h1 {
+  background-color: azure;
+  background-size: cover;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-family: 'Permanent Marker';
+  text-align: center;
+  font-size: 150%;
+}
+
+pre{
+  font-family: 'Permanent Marker';
+  color: #3C3534;
+    width  : 28%;
+    height : 300px;
+    background : rgb(228, 234, 240);
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+   text-align: center;
+     margin-right: auto;
+     margin-left: auto;
+ }
+img{
+  width : 70%;
+  height :40%;
+}
+.Suggest{
+  color: rgb(228, 234, 240);
+  text-align: center;
+  font-family: 'Permanent Marker';
+  font-size: 80%;
+}
+
+.used{
+  color: white;
+}
+
+h6{
+  text-align: center;
+  font-size: 100%;
+}
+
+
+input[type="text"]{
+  font-family: 'Permanent Marker';
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  height: 40px;
+  width: 400px;
+  font-size: 2em;
+  color: #3C3534;
+}
+.niveaux input{
+  font-family: 'Permanent Marker';
+  font-size: 20px;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+
+  position: relative;
+  padding: 15px 30px;
+  color: #3C3534;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-decoration: none;
+  overflow: hidden;
+  transition: 0.2s;
+}
+
+.niveaux input:hover{
+  color: #255784;
+  background: #2196f3;
+  box-shadow: 0 0 10px #2196f3,
+              0 0 40px #2196f3,
+              0 0 80px #2196f3;
+  transition: 1s;
+  transition-delay: 0.1s;
+}

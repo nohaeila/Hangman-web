@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/loose.css"/>
+    <title>Document</title>
+
+</head>
+
+<body>
+<div>
+    <h1> You loose! </h1>
+</div>
+<div>
+
+    <p>
+        The word was : {{ .WordToGuess }}
+    </p>
+    <h2><img src="images/10.png" class="img"></h2>
+</div>
+<form action="/" method="post">
+    <div class = "niveaux">
+        <h2><input class = "replay" type="submit" value="Play Again" name="boutonLoose"></h2>
+    </div>
+</form>
+</body>
+</html>
