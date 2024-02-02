@@ -7,6 +7,12 @@ body {
     background-size:200%;
     background-repeat:no-repeat;
     background-position:center center;
+    background-color: #111;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    color: #fff;
 
 }
 p{
@@ -24,7 +30,9 @@ h1 {
     color: transparent;
     font-family: 'Permanent Marker';
     text-align: center;
-    font-size: 60px;
+    font-size: 50px;
+    color: #00ff00;
+    text-shadow: 2px 2px 4px rgba(0, 255, 0, 0.8);
 }
 
 h2{
@@ -40,8 +48,13 @@ img{
     padding-right: 30px;
     padding-top: 15px;
     padding-bottom: 15px;
-    background-color: azure;
-    color: #3C3534;
+    background-color: #222;
+    text-align: center;
+    border-radius: 5px;
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+    color: #fff;
 }
 .replay:hover{
     color: #c4c8cc;

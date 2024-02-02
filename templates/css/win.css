@@ -7,13 +7,19 @@ body {
     background-size:200%;
     background-repeat:no-repeat;
     background-position:center center;
+    background-color: #111;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    color: #fff;
 
 }
 .element1 {
-    padding-right: 40px;
+    padding-right: 30px;
 }
 .element2 {
-    padding-left: 40px;
+    padding-left: 30px;
 }
 p{
     font-family: "Permanent Marker";
@@ -23,16 +29,18 @@ p{
 }
 h1{
     font-family:'Permanent Marker';
-    color: azure;
-    font-size: 80px;
     text-align: center;
     align-items: center;
+    font-size: 50px;
+    color: #00ff00;
+    text-shadow: 2px 2px 4px rgba(0, 255, 0, 0.8);
+
 }
 table{
     margin-top: 50px;
     font-family:'Permanent Marker';
     color: azure;
-    font-size: 40px;
+    font-size: 20px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -48,13 +56,16 @@ h3{
 }
 .replay{
     font-family: 'Permanent Marker';
-    font-size: 50px;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    background-color: azure;
-    color: #3C3534;
+    font-size: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #222;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    color: #fff;
 }
 .replay:hover{
     color: #c4c8cc;

@@ -1,80 +1,68 @@
+
 @font-face {
   src: url("../fonts/PermanentMarker-Regular (1).woff2") format("woff2");
   font-family: "Permanent Marker";
 }
-body {
-  background-image:url('../images/Neonback.gif');
-  background-size:200%;
-  background-repeat:no-repeat;
-  background-position:center center;
 
+body {
+    background-color: #111;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    color: #fff;
 }
+
+
+.Login {
+    background: #222;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+
 
 h1 {
-  background-color: azure;
-  background-size: cover;
-  background-clip: text;
-  -webkit-background-clip: text;
-  color: transparent;
-  font-family: 'Permanent Marker';
-  text-align: center;
-  /*color: rgb(150, 149, 149);*/
-  padding: 25px;
-  font-size: 100px;
-  justify-content: center;
-  align-items: center;
-  margin-top: 5px;
+    font-size: 28px;
+    color: #00ff00;
+    text-shadow: 2px 2px 4px rgba(0, 255, 0, 0.8);
+    animation-duration: 3s;
+    animation-name: slidein;
 }
+
+
+.niveaux input{
+  font-family: 'Permanent Marker';
+  padding: 10px;
+  background: #333;
+  color: #fff;
+  font-size: 1em;
+  margin-top: 2%;
+  width: 200px;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
 input[type="text"]{
   font-family: 'Permanent Marker';
-  color: #3C3534;
+  background: #333;
+  color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  text-align: center;
   position: relative;
   display: block;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  height: 50px;
-  width: 900px;
-  font-size: 2em;
+  height: 10px;
+  width: 180px;
+  font-size: 1em;
   margin-top: 2%;
-
 }
-.niveaux input{
-  font-family: 'Permanent Marker';
-  color: #3C3534;
-  font-size: 2em;
-  margin-top: 2%;
-  width: 300px;
-
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-.replay:hover{
-  color: #c4c8cc;
-  background: azure;
-  box-shadow: 0 0 10px azure,
-  0 0 40px azure,
-  0 0 80px azure;
-  transition: 1s;
-  transition-delay: 0.1s;
-}
-.replay2:hover{
-  color: #c4c8cc;
-  background: azure;
-  box-shadow: 0 0 10px azure,
-  0 0 40px azure,
-  0 0 80px azure;
-  transition: 1s;
-  transition-delay: 0.1s;
-}
-.replay3:hover{
-  color: #c4c8cc;
-  background: azure;
-  box-shadow: 0 0 10px azure,
-  0 0 40px azure,
-  0 0 80px azure;
-  transition: 1s;
-  transition-delay: 0.1s;
-}
-  
