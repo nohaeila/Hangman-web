@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/win.css" />
+
+    <title>Document</title>
+</head>
+
+<body>
+<h1>You win!</h1>
+<table>
+    <thead>
+    <tr>
+        <td class="element1">Name</td>
+        <td class="element2">Tries</td>
+    </tr>
+    </thead>
+    <tbody>
+    <div class="contenu">
+        <p>
+            The word was : {{ .WordToGuess }}
+        </p>
+        <h2></h2>
+    </div>
+
+    <tr><td class="element1">{{ .Pseudo }}</td>
+        <td class="element2">{{ .Tries }}/10</td>
+
+    </tr>
+    </tbody>
+</table>
+
+<form action="/" method="post">
+    <h3><input class = "replay" type="submit" value="Play Again" name="boutonWin"></h3>
+</form>
+</body>
+
+</html>

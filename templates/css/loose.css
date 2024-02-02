@@ -1,0 +1,54 @@
+@font-face {
+    src: url("../fonts/PermanentMarker-Regular (1).woff2") format("woff2");
+    font-family: "Permanent Marker";
+}
+body {
+    background-image:url('../images/Neonback.gif');
+    background-size:200%;
+    background-repeat:no-repeat;
+    background-position:center center;
+
+}
+p{
+    font-family: "Permanent Marker";
+    color: rgb(228, 234, 240);
+    font-size: 100%;
+    text-align: center;
+}
+
+h1 {
+    background-color:azure;
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-family: 'Permanent Marker';
+    text-align: center;
+    font-size: 60px;
+}
+
+h2{
+    text-align: center;
+}
+img{
+    width : 20%;
+}
+.replay{
+    font-family: 'Permanent Marker';
+    font-size: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: azure;
+    color: #3C3534;
+}
+.replay:hover{
+    color: #c4c8cc;
+    background: azure;
+    box-shadow: 0 0 10px azure,
+    0 0 40px azure,
+    0 0 80px azure;
+    transition: 1s;
+    transition-delay: 0.1s;
+}
