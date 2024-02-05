@@ -1,7 +1,3 @@
-@font-face {
-  src: url("../fonts/PermanentMarker-Regular (1).woff2") format("woff2");
-  font-family: "Permanent Marker";
-}
 
 body {
   background-image:url('../images/Neonback.gif');
@@ -9,28 +5,29 @@ body {
   background-repeat:no-repeat;
   background-position:center center;
   background-color: #111;
-  color: #fff;
+  color: #000000;
 
 }
 
 p{
-  font-family: "Permanent Marker";
-    color: rgb(228, 234, 240);
-    font-size: 120%;
+  font-family: 'Tilt Neon', sans-serif;
+  color: #00ff00;
+  text-shadow: 2px 2px 4px rgba(0, 255, 0, 0.8);
+  font-size: 120%;
 }
 
 h1 {
-  background-color: azure;
+  color: #00ff00;
+  text-shadow: 2px 2px 4px rgba(0, 255, 0, 0.8);
   background-size: cover;
   -webkit-background-clip: text;
-  color: transparent;
-  font-family: 'Permanent Marker';
+  font-family: 'Tilt Neon', sans-serif;
   text-align: center;
-  font-size: 150%;
+  font-size: 200%;
 }
 
 pre{
-  font-family: 'Permanent Marker';
+  font-family: 'Tilt Neon', sans-serif;
   color: #3C3534;
     width  : 28%;
     height : 300px;
@@ -47,21 +44,27 @@ img{
   height :30%;
 }
 .Suggest{
-  color: rgb(228, 234, 240);
+  color: rgb(1, 1, 1);
   text-align: center;
   font-family: 'Permanent Marker';
+  color: #00ff00;
+  text-shadow: 2px 2px 4px rgba(0, 255, 0, 0.8);
   font-size: 80%;
 }
 
 .used{
-  color: white;
+  color: #00ff00;
+  text-shadow: 2px 2px 4px rgba(0, 255, 0, 0.8);
+  position: relative;
+  text-align: center;
 }
 
 input[type="text"]{
-  font-family: 'Permanent Marker';
+  font-family: 'Tilt Neon', sans-serif;
   position: relative;
   background: #333;
-  color: #fff;
+  color: #00ff00;
+    text-shadow: 2px 2px 4px rgba(0, 255, 0, 0.8);
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -73,13 +76,14 @@ input[type="text"]{
 }
 
 .niveaux input{
-  font-family: 'Permanent Marker';
+  font-family: 'Tilt Neon', sans-serif;
   font-size: 25px;
   margin-left: auto;
   margin-right: auto;
   display: block;
   border-radius: 5px;
-
+  color: #00ff00;
+  text-shadow: 2px 2px 4px rgba(0, 255, 0, 0.8);
   position: relative;
   padding: 10px 20px;
   text-transform: uppercase;
@@ -90,12 +94,29 @@ input[type="text"]{
 }
 
 .niveaux input:hover{
-  color: #255784;
-  background: #2196f3;
-  box-shadow: 0 0 10px #2196f3,
-              0 0 40px #2196f3,
-              0 0 80px #2196f3;
+  color: rgb(0, 0, 0) ;
+  background: azure;
+  box-shadow: 0 0 10px azure,
+              0 0 40px azure,
+              0 0 80px azure;
   transition: 1s;
   transition-delay: 0.1s;
+}
+
+.button{
+  font-family: 'Tilt Neon', sans-serif;
+  font-size: 25px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #222;
+  text-align: center;
+  border-radius: 5px;
+
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+  color: #00ff00;
+  text-shadow: 2px 2px 4px rgba(0, 255, 0, 0.8);
 }
 

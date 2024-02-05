@@ -1,7 +1,4 @@
-@font-face {
-    src: url("../fonts/PermanentMarker-Regular (1).woff2") format("woff2");
-    font-family: "Permanent Marker";
-}
+
 body {
     background-image:url('../images/Neonback.gif');
     background-size:200%;
@@ -16,19 +13,22 @@ body {
 
 }
 .element1 {
+    
     padding-right: 30px;
 }
 .element2 {
+  
     padding-left: 30px;
 }
 p{
-    font-family: "Permanent Marker";
-    color: rgb(228, 234, 240);
+    font-family: 'Tilt Neon', sans-serif;
+    color: #00ff00;
+    text-shadow: 2px 2px 4px rgba(0, 255, 0, 0.8);
     font-size: 100%;
     text-align: center;
 }
 h1{
-    font-family:'Permanent Marker';
+    font-family: 'Tilt Neon', sans-serif;
     text-align: center;
     align-items: center;
     font-size: 50px;
@@ -38,24 +38,26 @@ h1{
 }
 table{
     margin-top: 50px;
-    font-family:'Permanent Marker';
-    color: azure;
+    font-family: 'Tilt Neon', sans-serif;
+    color: #00ff00;
+    text-shadow: 2px 2px 4px rgba(0, 255, 0, 0.8);
     font-size: 20px;
     margin-left: auto;
     margin-right: auto;
 }
 h2{
     margin-top: 15px;
-    font-family:'Permanent Marker';
+    font-family: 'Tilt Neon', sans-serif;
     text-align: center;
-    color: azure;
+    color: #00ff00;
+    text-shadow: 2px 2px 4px rgba(0, 255, 0, 0.8);
 }
 h3{
     text-align: center;
     margin-top: 2%;
 }
 .replay{
-    font-family: 'Permanent Marker';
+    font-family: 'Tilt Neon', sans-serif;
     font-size: 25px;
     padding-left: 30px;
     padding-right: 30px;
@@ -65,10 +67,12 @@ h3{
     text-align: center;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    color: #fff;
+    color: #00ff00;
+    text-shadow: 2px 2px 4px rgba(0, 255, 0, 0.8);
 }
 .replay:hover{
-    color: #c4c8cc;
+    color: #00ff00;
+    text-shadow: 2px 2px 4px rgba(0, 255, 0, 0.8);
     background: azure;
     box-shadow: 0 0 10px azure,
     0 0 40px azure,
