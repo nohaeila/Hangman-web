@@ -1,7 +1,7 @@
 package Server
 
 import (
-	"Web/hangman-classic/func"
+	"Web/Hangman-classic/func"
 	"fmt" // Replace "github.com/username/repo" with the actual package path
 	"html/template"
 	"net/http"
@@ -113,7 +113,7 @@ func DisplayLoose(w http.ResponseWriter, r *http.Request) {
 	}
 }
 func StartServer() {
-	println("server started on http://localhost:8080/")
+	println("Server started on http://localhost:8080/")
 	http.Handle("/css/", http.StripPrefix("/css/", http.FileServer(http.Dir("./templates/css"))))
 	http.Handle("/images/", http.StripPrefix("/images/", http.FileServer(http.Dir("./assets/images"))))
 	http.Handle("/musique/", http.StripPrefix("/musique/", http.FileServer(http.Dir("./assets/musique/"))))
