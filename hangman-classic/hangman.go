@@ -1,13 +1,12 @@
 package hangmanclassic
 
 import (
+	"Web/hangman-classic/func"
 	"fmt"
-	"hangman_web/hangman-classic/func"
-	"os"
 )
 
 func Exit() {
-	os.Exit(0)
+	return
 }
 
 func InputLetter(word string, try int, used []string, hider []string) {
