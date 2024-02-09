@@ -1,9 +1,9 @@
 package main
 
 import (
-	"hangman_web/server"
+	"Web/hangman-web/Server"
 )
 
 func main() {
-	server.StartServer()
+	Server.StartServer()
 }
