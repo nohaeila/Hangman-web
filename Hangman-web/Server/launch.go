@@ -2,7 +2,7 @@ package Server
 
 import (
 	"Web/hangman-classic/func"
-	"fmt" // Replace "github.com/username/repo" with the actual package path
+	"fmt"
 	"html/template"
 	"net/http"
 )
@@ -23,7 +23,7 @@ type Hangman struct {
 var Data Hangman
 
 func Display(w http.ResponseWriter, r *http.Request) {
-	custTemplate, err := template.ParseFiles("Hangman-web/templates/html/accueil.html")
+	custTemplate, err := template.ParseFiles("Hangman-web/templates/accueil.html")
 	if err != nil {
 		http.Error(w, err.Error(), http.StatusInternalServerError)
 		return
@@ -40,20 +40,24 @@ func Display(w http.ResponseWriter, r *http.Request) {
 		Data.Used = []string{""}
 		Data.Jose = Func.DisplayImage(w, r, Data.Tries)
 		Data.Suggest = ""
+
 	}
+
 	if username != "" {
 		fmt.Printf("Le pseudo de l'utilisateur est  : %s\n", username)
 		Data.Pseudo = username
 		http.Redirect(w, r, "/index", http.StatusFound)
 	}
+
 	err = custTemplate.Execute(w, Data)
 	if err != nil {
 		http.Error(w, err.Error(), http.StatusInternalServerError)
 		return
 	}
+
 }
 func DisplayIndex(w http.ResponseWriter, r *http.Request) {
-	custTemplate, err := template.ParseFiles("Hangman-web/templates/html/index.html")
+	custTemplate, err := template.ParseFiles("Hangman-web/templates/index.html")
 	if err != nil {
 		http.Error(w, err.Error(), http.StatusInternalServerError)
 		return
@@ -77,7 +81,9 @@ func DisplayIndex(w http.ResponseWriter, r *http.Request) {
 					} else if Data.Result == "loose" {
 						http.Redirect(w, r, "/loose", http.StatusFound)
 					}
+
 				}
+
 			}
 		}
 		Data.Jose = Func.DisplayImage(w, r, Data.Tries)
@@ -88,8 +94,10 @@ func DisplayIndex(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 }
+
 func DisplayWin(w http.ResponseWriter, r *http.Request) {
-	custTemplate, err := template.ParseFiles("Hangman-web/templates/html/win.html")
+
+	custTemplate, err := template.ParseFiles("Hangman-web/templates/win.html")
 	if err != nil {
 		http.Error(w, err.Error(), http.StatusInternalServerError)
 		return
@@ -101,7 +109,7 @@ func DisplayWin(w http.ResponseWriter, r *http.Request) {
 	}
 }
 func DisplayLoose(w http.ResponseWriter, r *http.Request) {
-	custTemplate, err := template.ParseFiles("Hangman-web/templates/html/loose.html")
+	custTemplate, err := template.ParseFiles("Hangman-web/templates/loose.html")
 	if err != nil {
 		http.Error(w, err.Error(), http.StatusInternalServerError)
 		return
@@ -112,11 +120,11 @@ func DisplayLoose(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 }
+
 func StartServer() {
 	println("server started on http://localhost:8080/")
-	http.Handle("/css/", http.StripPrefix("/css/", http.FileServer(http.Dir("./templates/css"))))
-	http.Handle("/images/", http.StripPrefix("/images/", http.FileServer(http.Dir("./assets/images"))))
-	http.Handle("/musique/", http.StripPrefix("/musique/", http.FileServer(http.Dir("./assets/musique/"))))
+	http.Handle("/css/", http.StripPrefix("/css/", http.FileServer(http.Dir("./Hangman-web/templates/css/"))))
+	http.Handle("/images/", http.StripPrefix("/images/", http.FileServer(http.Dir("./Hangman-web/assets/images/"))))
 	http.HandleFunc("/", Display)
 	http.HandleFunc("/index", DisplayIndex)
 	http.HandleFunc("/win", DisplayWin)
@@ -125,4 +133,5 @@ func StartServer() {
 	if err != nil {
 		return
 	}
+
 }

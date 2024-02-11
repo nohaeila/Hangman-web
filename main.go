@@ -1,7 +1,7 @@
 package main
 
 import (
-	"Web/hangman-web/Server"
+	"Web/Hangman-web/Server"
 )
 
 func main() {

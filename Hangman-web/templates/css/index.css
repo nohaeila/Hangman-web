@@ -1,4 +1,3 @@
-
 body {
   background-image:url('../images/Neonback.gif');
   background-size:200%;
@@ -6,16 +5,14 @@ body {
   background-position:center center;
   background-color: #111;
   color: #000000;
-
 }
-
 p{
   font-family: 'Tilt Neon', sans-serif;
   color: #00ff00;
   text-shadow: 2px 2px 4px rgba(0, 255, 0, 0.8);
   font-size: 120%;
+  text-align: center;
 }
-
 h1 {
   color: #00ff00;
   text-shadow: 2px 2px 4px rgba(0, 255, 0, 0.8);
@@ -25,13 +22,11 @@ h1 {
   text-align: center;
   font-size: 200%;
 }
-
 pre{
   font-family: 'Tilt Neon', sans-serif;
   color: #3C3534;
     width  : 28%;
     height : 300px;
-    background : rgb(228, 234, 240);
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -51,14 +46,12 @@ img{
   text-shadow: 2px 2px 4px rgba(0, 255, 0, 0.8);
   font-size: 80%;
 }
-
 .used{
   color: #00ff00;
   text-shadow: 2px 2px 4px rgba(0, 255, 0, 0.8);
   position: relative;
   text-align: center;
 }
-
 input[type="text"]{
   font-family: 'Tilt Neon', sans-serif;
   position: relative;
@@ -74,7 +67,6 @@ input[type="text"]{
   width: 200px;
   font-size: 1em;
 }
-
 .niveaux input{
   font-family: 'Tilt Neon', sans-serif;
   font-size: 25px;
@@ -92,7 +84,6 @@ input[type="text"]{
   overflow: hidden;
   transition: 0.2s;
 }
-
 .niveaux input:hover{
   color: rgb(0, 0, 0) ;
   background: azure;
@@ -102,7 +93,6 @@ input[type="text"]{
   transition: 1s;
   transition-delay: 0.1s;
 }
-
 .button{
   font-family: 'Tilt Neon', sans-serif;
   font-size: 25px;
@@ -113,9 +103,7 @@ input[type="text"]{
   background-color: #222;
   text-align: center;
   border-radius: 5px;
-
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-
   color: #00ff00;
   text-shadow: 2px 2px 4px rgba(0, 255, 0, 0.8);
 }
