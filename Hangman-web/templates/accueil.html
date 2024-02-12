@@ -5,24 +5,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet"  href="css/accueil.css" >
+    <link rel="stylesheet" href="css/accueil.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap" rel="stylesheet">
 </head>
 
 <body>
-<div class="Login">
-<div>
-    <form action="accueil" method="post" >
-        <h1>Bienvenue au jeu du Pendu !</h1>
-        <input id= "pseudo" required type="text" name="nom_utilisateur" placeholder="Entrez votre pseudo" autocomplete="off">
-        <div class = "niveaux">
-            <input class="replay" type="submit" value="EASY" id="btn1"    name="bouton">
-            <input class="replay2" type="submit" value="NORMAL" id="btn2" name="bouton">
-            <input class="replay3" type="submit" value="HARD" id="btn3"   name="bouton">
+    <div class="Login">
+        <div>
+            <form action="accueil" method="post">
+                <h1>Bienvenue au jeu du Pendu !</h1>
+                <input id="pseudo" required type="text" name="nom_utilisateur" placeholder="Entrez votre pseudo"
+                    autocomplete="off">
+                <div class="niveaux">
+                    <input class="replay" type="submit" value="EASY" id="btn1" name="bouton">
+                    <input class="replay2" type="submit" value="NORMAL" id="btn2" name="bouton">
+                    <input class="replay3" type="submit" value="HARD" id="btn3" name="bouton">
+                </div>
+                <div>
+        <p>
+        Vous devez deviner un mot en suggérant des lettres, un par un. Vous avez un nombre limité d'essais (10) avant de perdre la partie.
+        </p>
+    <ul>
+        <p>Si la lettre proposée n'est pas dans le mot secret, le joueur perd un essai.</p> 
+        <p>Le joueur gagne s'il devine toutes les lettres du mot secret avant d'épuiser tous ses essais.</p>
+        <p>Attention, vous pouvez proposer une lettre déjà marquée au début, par exemple dans le mot lavabo, le premier A est visible mais pas le second!</p>
+        <p>Donner plusieurs lettres en meme temps compte comme plusieurs erreurs et donner un mot complet aussi!</p>
+    </ul>
+    </div>
+            </form>
         </div>
-    </form>
-</div>
+    </div>
+    
 </body>
 </html>

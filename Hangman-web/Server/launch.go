@@ -96,7 +96,6 @@ func DisplayIndex(w http.ResponseWriter, r *http.Request) {
 }
 
 func DisplayWin(w http.ResponseWriter, r *http.Request) {
-
 	custTemplate, err := template.ParseFiles("Hangman-web/templates/win.html")
 	if err != nil {
 		http.Error(w, err.Error(), http.StatusInternalServerError)
@@ -133,5 +132,4 @@ func StartServer() {
 	if err != nil {
 		return
 	}
-
 }
