@@ -1,103 +1,109 @@
+/* Définition du style du corps de la page */
 body {
-  background-image:url('../images/Neonback.gif');
-  background-color: #111;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  margin: 0;
-  color: #00ff00;
-  text-shadow: 2px 2px 4px rgba(0, 255, 0, 0.8);
-  
+  background-image: url('../images/Neonback.gif'); /* Image de fond */
+  background-color: #111; /* Couleur de fond */
+  display: flex; /* Utilisation du modèle de boîte flexible */
+  align-items: center; /* Alignement vertical au centre */
+  justify-content: center; /* Alignement horizontal au centre */
+  height: 100vh; /* Hauteur de la vue à 100% de la hauteur de la fenêtre */
+  margin: 0; /* Supprime la marge par défaut du corps */
+  color: #00ff00; /* Couleur du texte */
+  text-shadow: 2px 2px 4px rgba(0, 255, 0, 0.8); /* Ombre du texte */
 }
+
+/* Style de la boîte de connexion */
 .Login {
-  background: #222;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  text-align: center;
+  background: #222; /* Couleur de fond de la boîte */
+  padding: 20px; /* Rembourrage intérieur */
+  border-radius: 8px; /* Bordure arrondie */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Ombre de la boîte */
+  text-align: center; /* Alignement du texte au centre */
 }
+
+/* Style du titre de niveau 1 */
 h1 {
-  font-size: 28px;
-  font-family: 'Tilt Neon', sans-serif;
-  color: #00ff00;
-  text-shadow: 2px 2px 4px rgba(0, 255, 0, 0.8);
-  animation-duration: 3s;
-  animation-name: slidein;
+  font-size: 28px; /* Taille de la police */
+  font-family: 'Tilt Neon', sans-serif; /* Police de caractères */
+  color: #00ff00; /* Couleur du texte */
+  text-shadow: 2px 2px 4px rgba(0, 255, 0, 0.8); /* Ombre du texte */
+  animation-duration: 3s; /* Durée de l'animation */
+  animation-name: slidein; /* Nom de l'animation */
 }
-.niveaux input{
-font-family: 'Tilt Neon', sans-serif;
-padding: 10px;
-background: #333;
-color: #00ff00;
-text-shadow: 2px 2px 4px rgba(0, 255, 0, 0.8);
-font-size: 1em;
-margin-top: 2%;
-width: 200px;
-margin-left: auto;
-margin-right: auto;
+
+/* Style des champs de saisie de type 'text' dans la classe 'niveaux' */
+.niveaux input {
+  font-family: 'Tilt Neon', sans-serif; /* Police de caractères */
+  padding: 10px; /* Rembourrage intérieur */
+  background: #333; /* Couleur de fond */
+  color: #00ff00; /* Couleur du texte */
+  text-shadow: 2px 2px 4px rgba(0, 255, 0, 0.8); /* Ombre du texte */
+  font-size: 1em; /* Taille de la police */
+  margin-top: 2%; /* Marge supérieure */
+  width: 200px; /* Largeur fixe */
+  margin-left: auto; /* Alignement automatique à gauche */
+  margin-right: auto; /* Alignement automatique à droite */
 }
-input[type="text"]{
-font-family: 'Tilt Neon', sans-serif;
-background: #333;
-color: #00ff00;
-text-shadow: 2px 2px 4px rgba(0, 255, 0, 0.8);
-padding: 20px;
-border-radius: 5px;
-text-align: center;
-position: relative;
-display: block;
-margin-left: auto;
-margin-right: auto;
-text-align: center;
-height: 10px;
-width: 180px;
-margin-top: 2%;
+
+/* Style des champs de saisie de type 'text' */
+input[type="text"] {
+  font-family: 'Tilt Neon', sans-serif; /* Police de caractères */
+  background: #333; /* Couleur de fond */
+  color: #00ff00; /* Couleur du texte */
+  text-shadow: 2px 2px 4px rgba(0, 255, 0, 0.8); /* Ombre du texte */
+  padding: 20px; /* Rembourrage intérieur */
+  border-radius: 5px; /* Bordure arrondie */
+  text-align: center; /* Alignement du texte au centre */
+  position: relative; /* Position relative */
+  display: block; /* Affichage en bloc */
+  margin-left: auto; /* Alignement automatique à gauche */
+  margin-right: auto; /* Alignement automatique à droite */
+  height: 10px; /* Hauteur fixe */
+  width: 180px; /* Largeur fixe */
+  margin-top: 2%; /* Marge supérieure */
 }
-.niveaux input{
-font-family: 'Tilt Neon', sans-serif;
-font-size: 20px;
-margin-left: auto;
-margin-right: auto;
-display: block;
-border-radius: 5px;
-color: #00ff00;
-text-shadow: 2px 2px 4px rgba(0, 255, 0, 0.8);
-position: relative;
-padding: 10px 20px;
-text-transform: uppercase;
-letter-spacing: 3px;
-text-decoration: none;
-overflow: hidden;
-transition: 0.2s;
+
+/* Style des champs de saisie de type 'text' dans la classe 'niveaux' */
+.niveaux input {
+  font-family: 'Tilt Neon', sans-serif; /* Police de caractères */
+  font-size: 20px; /* Taille de la police */
+  margin-left: auto; /* Alignement automatique à gauche */
+  margin-right: auto; /* Alignement automatique à droite */
+  display: block; /* Affichage en bloc */
+  border-radius: 5px; /* Bordure arrondie */
+  color: #00ff00; /* Couleur du texte */
+  text-shadow: 2px 2px 4px rgba(0, 255, 0, 0.8); /* Ombre du texte */
+  position: relative; /* Position relative */
+  padding: 10px 20px; /* Rembourrage intérieur */
+  text-transform: uppercase; /* Conversion du texte en majuscules */
+  letter-spacing: 3px; /* Espacement des lettres */
+  text-decoration: none; /* Aucune décoration de texte */
+  overflow: hidden; /* Masquage du débordement */
+  transition: 0.2s; /* Durée de la transition */
 }
-.niveaux input:hover{
-color: rgb(0, 0, 0) ;
-background: azure;
-box-shadow: 0 0 10px azure,
-            0 0 40px azure,
-            0 0 80px azure;
-transition: 1s;
-transition-delay: 0.1s;
+
+/* Style des champs de saisie de type 'text' au survol dans la classe 'niveaux' */
+.niveaux input:hover {
+  color: rgb(0, 0, 0); /* Couleur du texte au survol */
+  background: azure; /* Couleur de fond au survol */
+  box-shadow: 0 0 10px azure,
+              0 0 40px azure,
+              0 0 80px azure; /* Ombre de la boîte au survol */
+  transition: 1s; /* Durée de la transition */
+  transition-delay: 0.1s; /* Délai de la transition */
 }
-.button{
-font-family: 'Tilt Neon', sans-serif;
-font-size: 10px;
-padding-left: 30px;
-padding-right: 30px;
-padding-top: 15px;
-padding-bottom: 15px;
-background-color: #222;
-text-align: center;
-border-radius: 5px;
-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-color: #00ff00;
-text-shadow: 2px 2px 4px rgba(0, 255, 0, 0.8);
-}
-.texte-centre {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100vh; /* Utilise la hauteur de la fenêtre comme référence pour le centrage vertical */
+
+/* Style du bouton */
+.button {
+  font-family: 'Tilt Neon', sans-serif; /* Police de caractères */
+  font-size: 10px; /* Taille de la police */
+  padding-left: 30px; /* Rembourrage à gauche */
+  padding-right: 30px; /* Rembourrage à droite */
+  padding-top: 15px; /* Rembourrage supérieur */
+  padding-bottom: 15px; /* Rembourrage inférieur */
+  background-color: #222; /* Couleur de fond */
+  text-align: center; /* Alignement du texte au centre */
+  border-radius: 5px; /* Bordure arrondie */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Ombre de la boîte */
+  color: #00ff00; /* Couleur du texte */
+  text-shadow: 2px 2px 4px rgba(0, 255, 0, 0.8); /* Ombre du texte */
 }
