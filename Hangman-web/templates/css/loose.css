@@ -1,75 +1,75 @@
 /* Style du corps de la page */
 body {
-    background-image: url('../images/Neonback.gif'); /* Image de fond */
-    background-size: 200%; /* Taille de l'image de fond */
-    background-repeat: no-repeat; /* Répétition de l'image de fond désactivée */
-    background-position: center center; /* Position de l'image de fond centrée */
-    background-color: #111; /* Couleur de fond */
-    align-items: center; /* Alignement vertical au centre */
-    justify-content: center; /* Alignement horizontal au centre */
-    height: 100vh; /* Hauteur de la vue à 100% de la hauteur de la fenêtre */
-    margin: 0; /* Supprime la marge par défaut du corps */
-    color: #fff; /* Couleur du texte */
+    background-image: url('../images/Neonback.gif'); 
+    background-size: 200%; 
+    background-repeat: no-repeat; 
+    background-position: center center; 
+    background-color: #111; 
+    align-items: center; 
+    justify-content: center; 
+    height: 100vh;
+    margin: 0; 
+    color: #fff; 
 }
 
 /* Style des paragraphes */
 p {
-    font-family: 'Tilt Neon', sans-serif; /* Police de caractères */
-    color: #00ff00; /* Couleur du texte */
-    text-shadow: 2px 2px 4px rgba(0, 255, 0, 0.8); /* Ombre du texte */
-    font-size: 100%; /* Taille de la police à 100% */
-    text-align: center; /* Alignement du texte au centre */
+    font-family: 'Tilt Neon', sans-serif; 
+    color: #00ff00; 
+    text-shadow: 2px 2px 4px rgba(0, 255, 0, 0.8); 
+    font-size: 100%; 
+    text-align: center; 
 }
 
 /* Style du titre de niveau 1 */
 h1 {
-    background-color: azure; /* Couleur de fond */
-    background-size: cover; /* Taille de l'arrière-plan */
-    background-clip: text; /* Utilisation de la couleur de fond pour le texte */
-    -webkit-background-clip: text; /* Compatibilité avec les anciennes versions de Webkit */
-    color: transparent; /* Texte transparent */
-    font-family: 'Tilt Neon', sans-serif; /* Police de caractères */
-    text-align: center; /* Alignement du texte au centre */
-    font-size: 50px; /* Taille de la police */
-    color: #00ff00; /* Couleur du texte */
-    text-shadow: 2px 2px 4px rgba(0, 255, 0, 0.8); /* Ombre du texte */
+    background-color: azure; 
+    background-size: cover; 
+    background-clip: text; 
+    -webkit-background-clip: text; 
+    color: transparent;
+    font-family: 'Tilt Neon', sans-serif; 
+    text-align: center; 
+    font-size: 50px; 
+    color: #00ff00; 
+    text-shadow: 2px 2px 4px rgba(0, 255, 0, 0.8); 
 }
 
 /* Style du titre de niveau 2 */
 h2 {
-    color: #00ff00; /* Couleur du texte */
-    text-shadow: 2px 2px 4px rgba(0, 255, 0, 0.8); /* Ombre du texte */
-    text-align: center; /* Alignement du texte au centre */
+    color: #00ff00; 
+    text-shadow: 2px 2px 4px rgba(0, 255, 0, 0.8);
+    text-align: center; 
 }
 
 /* Style des images */
 img {
-    width: 20%; /* Largeur de l'image à 20% de la largeur du conteneur */
+    width: 20%; 
 }
 
 /* Style du bouton "replay" */
 .replay {
-    font-family: 'Tilt Neon', sans-serif; /* Police de caractères */
-    font-size: 25px; /* Taille de la police */
-    padding-left: 30px; /* Rembourrage à gauche */
-    padding-right: 30px; /* Rembourrage à droite */
-    padding-top: 15px; /* Rembourrage supérieur */
-    padding-bottom: 15px; /* Rembourrage inférieur */
-    background-color: #222; /* Couleur de fond */
-    text-align: center; /* Alignement du texte au centre */
-    border-radius: 5px; /* Bordure arrondie */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Ombre de la boîte */
-    color: #00ff00; /* Couleur du texte */
-    text-shadow: 2px 2px 4px rgba(0, 255, 0, 0.8); /* Ombre du texte */
+    font-family: 'Tilt Neon', sans-serif; 
+    font-size: 25px; 
+    padding-left: 30px; 
+    padding-right: 30px; 
+    padding-top: 15px; 
+    padding-bottom: 15px; 
+    background-color: #222; 
+    text-align: center; 
+    border-radius: 5px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+    color: #00ff00; 
+    text-shadow: 2px 2px 4px rgba(0, 255, 0, 0.8); 
 }
 
 /* Style du bouton "replay" au survol */
 .replay:hover {
-    color: #000000; /* Couleur du texte au survol */
-    background: azure; /* Couleur de fond au survol */
+    color: #000000; 
+    background: azure; 
     box-shadow: 0 0 10px azure,
                 0 0 40px azure,
-                0 0 80px azure; /* Ombre de la boîte au survol */
-    transition: 1s; /* Durée de la transition */
-    transition-delay: 0.1s; /* Délai de la transition */
+                0 0 80px azure; 
+    transition: 1s; 
+    transition-delay: 0.1s; 
 }
