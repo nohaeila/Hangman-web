@@ -22,13 +22,13 @@ func Random(Diff string) string {
 	var a int
 	
 	// Utilise une instruction if-else pour déterminer le niveau de difficulté et choisir le fichier de mots approprié.
-	if Diff == "EASY" {
+	if Diff == "FACILE" {
 		a = rand.Intn(37) + 1
 		t = "./hangman-classic/words.txt"
 	} else if Diff == "NORMAL" {
 		a = rand.Intn(23) + 1
 		t = "./hangman-classic/words2.txt"
-	} else if Diff == "HARD" {
+	} else if Diff == "DIFFICILE" {
 		a = rand.Intn(24) + 1
 		t = "./hangman-classic/words3.txt"
 	}

@@ -15,7 +15,7 @@
 <body>
 <div class="entete">
     <p>
-        {{.Pseudo}} -> Nombre d'essais : {{ .Tries }} /10  </p>
+        {{.Pseudo}} -> Nombre d'essais restants : {{ .Tries }} /10  </p>
 </div>
 <div>
 
@@ -35,7 +35,7 @@
         <form action="/index" method="POST">
             <input required type="text" class="button" name="lettre" autocomplete="off"><br>
             <div class = "niveaux">
-                <h2><input type="submit" value="SUBMIT" class="button"></h2>
+                <h2><input type="submit" value="SOUMETTRE" class="button"></h2>
             </div>
         </form>
     </div>

@@ -9,13 +9,13 @@ func chooseWord(choosed string) string {
 	file := ""
 	
 	// Utilise une série d'instructions if pour déterminer le fichier de mots en fonction du niveau de difficulté.
-	if choosed == "EASY" {
+	if choosed == "FACILE" {
 		file = "words.txt"
 	}
 	if choosed == "NORMAL" {
 		file = "words2.txt"
 	}
-	if choosed == "HARD" {
+	if choosed == "DIFFICILE" {
 		file = "words3.txt"
 	}
 	

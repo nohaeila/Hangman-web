@@ -23,15 +23,15 @@
 
 <body>
     <!-- Titre de niveau 1 -->
-    <h1>You win!</h1>
+    <h1>Tu as gagné !</h1>
     
     <!-- Tableau -->
     <table>
         <!-- En-tête du tableau -->
         <thead>
             <tr>
-                <td class="element1">Name</td>
-                <td class="element2">Tries</td>
+                <td class="element1">Pseudo : </td>
+                <td class="element2">Nombre d'essais : </td>
             </tr>
         </thead>
         
@@ -41,7 +41,7 @@
             <div class="contenu">
                 <!-- Paragraphe contenant le texte dynamique de {{ .WordToGuess }} -->
                 <p>
-                    The word was: {{ .WordToGuess }}
+                    Le mot caché était : {{ .WordToGuess }}
                 </p>
                 <!-- Titre de niveau 2 -->
                 <h2></h2>
@@ -58,7 +58,7 @@
     <!-- Formulaire avec action "/" et méthode POST -->
     <form action="/" method="post">
         <!-- Titre de niveau 3 avec un bouton de soumission -->
-        <h3><input class="replay" type="submit" value="Play Again" name="boutonWin"></h3>
+        <h3><input class="replay" type="submit" value="NOUVELLE PARTIE" name="boutonWin"></h3>
     </form>
 </body>
 
