@@ -9,10 +9,10 @@ func Suggest(Error int) string {
 	switch Error {
 	case 1:
 		// Si le code d'erreur est 1, le message est "Please enter a letter".
-		Message = "Please enter a letter"
+		Message = "Veuillez entrer une lettre"
 	case 2:
 		// Si le code d'erreur est 2, le message est "Letter already used, Please try something else".
-		Message = "Letter already used, Please try something else"
+		Message = "Lettre déjà utilisée, veuillez essayer autre chose"
 	default:
 		// Si le code d'erreur ne correspond à aucune des conditions, retourne une chaîne vide.
 		return ""
